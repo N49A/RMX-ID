@@ -96,7 +96,7 @@ def loginSC():
 def login():
 	os.system('clear')
 
-		toket = open('login.txt','r')
+		
 
 		menu() 
 

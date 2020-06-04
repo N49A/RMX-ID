@@ -65,35 +65,36 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
-CorrectUsername = "ANBIA01"
-
-CorrectPassword = "AMANDA01"
-
-loop = 'true'
-
-while (loop == 'true'):
-
-    username = raw_input("\033[1;91m[☆] \x1b[1;94mUSERNAME TOOLS INI \x1b[1;97m: ")
-
-    if (username == CorrectUsername):
-
-    	password = raw_input("\033[1;91m[☆] \x1b[1;97mPASSWORD TOOLS INI \x1b[1;91m: ")        if (password == CorrectPassword):
-
-            print "Login Berhasil Sobat " + username
-
-            loop = 'false'
-
-        else:
-
-            print "PASSWORD SALAH WOI!"
-
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+def siapa():
+	os.system('clear')
+	nama = raw_input("\033[1;97mSiapa nama kamu ? \033[1;91m: \033[1;92m")
+	if nama =="":
+		print"\033[1;96m[!] \033[1;91mIsi yang benar"
+		time.sleep(1)
+		siapa()
+	else:
+		os.system('clear')
+		jalan("\033[1;97mSelamat datang \033[1;92m" +nama+ "\n\033[1;97mTerimakasih telah menggunakan tools ini !!")
+		time.sleep(1)
+		loginSC()
+		
+		
+def loginSC():
+	os.system('clear')
+	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
+	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="dark" and password =="fb":
+		print"\033[1;96m[✓] \033[1;92mLogin success"
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mSalah!!"
+		time.sleep(1)
+                LoginSC()
 
 def login():
-
 	os.system('clear')
-
-	try:
 
 		toket = open('login.txt','r')
 

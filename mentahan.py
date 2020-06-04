@@ -79,13 +79,12 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print """\033[1;97m=====================================================>\033[1;91mTools Ini Dibuat Hanya Untuk Edukasi Dan Keperluan Penting
 \033[1;97m=====================================================>============>
-\033[1;91m [¤]  TERIMA KASIH TELAH MENGGUNAKAN 
-
-\033[1;91m [¤]  TOOLS MILIK SAYA.....
-\033[1;91m [¤] 
+\033[1;91m [¤]  TERIMA KASIH TELAH MENGGUNAKAN TOOLS MILIK SAYA
+\033[1;91m [¤]  LOGIN SC DULU BOS
+\033[1;91m [¤]  [✓]
 \033[1;91m [¤]  
-\033[1;91m [¤]  USERNAME = "N49A"
-\033[1;91m [¤]  PASSWORD = "RMX"
+\033[1;31m [¤]  USERNAME = "N49A"
+\033[1;33m [¤]  PASSWORD = "RMX"
 print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 
 
@@ -799,3 +798,4 @@ def clone_dari_file():
 		
 if __name__ == '__main__':
 	login()
+zbzj

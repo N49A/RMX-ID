@@ -42,8 +42,8 @@ logo = """\033[1;93m๑۩۩๑
 \033[1;95m█████████      \033[1;97m«----------✧----------»
 \033[1;95m ██ ██
 \033[1;96m╔══════════════════════════════════════════════╗
-\033[1;96m║\033[1;93m* \033[1;97mCreator \033[1;93m: \033[1;92m RMX               \033[1;96m             ║
-\033[1;96m║\033[1;93m* \033[1;97mGitHub  \033[1;93m: \033[1;92m\033[4m github.com/N49A        \033[0m \033[1;96m      ║
+\033[1;96m║\033[1;93m* \033[1;97mCreator \033[1;93m: \033[1;92m RMX               \033[1;96m               ║
+\033[1;96m║\033[1;93m* \033[1;97mGitHub  \033[1;93m: \033[1;92m\033[4m github.com/N49A        \033[0m \033[1;96m       ║
 \033[1;96m║\033[1;93m* \033[1;97mFB      \033[1;93m:  \033[1;92m\033mfacebook.com/RMXCODE\033[0m \033[1;96m            ║
 \033[1;96m╚══════════════════════════════════════════════╝
 \033[1;93m  ⚠️ Buat Akun baru Di OperaMini Agar Tidak Cp ⚠️"""
@@ -115,9 +115,9 @@ CorrectPassword = "N49A"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m➤➤")
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;97m➤➤")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m➤➤")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;97m➤➤")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'

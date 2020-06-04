@@ -103,8 +103,9 @@ print  """
 
 """
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96m    ★MR-RMX★    \033[1;97m•◈•──────────•◈•")
-                                                   【★】 
+jalan("\033[1;97m•◈•──────────•◈•\033[1;91m    ★MR-RMX★    \033[1;97m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;98mLOGIN SC DULU BOS\033[1;97m•◈•──────────•◈•")
+	
 jalan("\033[1;97m•◈•──────────•◈•\033[1;32mUSERNAME = MR-RMX\033[1;97m•◈•──────────•◈•")
 jalan("\033[1;97m•◈•──────────•◈•\033[1;31mPASSWORD = N49A  \033[1;97m•◈•──────────•◈•")
 
@@ -114,9 +115,9 @@ CorrectPassword = "N49A"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m★ ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m★ ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -224,7 +225,7 @@ def menu():
     print '\xe2\x95\x91\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m]\x1b[1;97m Subs \x1b[1;91m: \x1b[1;92m' + sub + (39 - len(sub)) * '\x1b[1;97m ' + '║'
     print '\x1b[1;97m╠' + 50 * '\xe2\x95\x90' + '╝'
     print '║-> \x1b[1;37;40m1. User Information'
-    print '║-> \x1b[1;37;40m2. Hack Facebook Account'
+    print '║-> \x1b[1;37;40m2. Hack Facebook'
     print '║-> \x1b[1;37;40m3. Bot'
     print '║-> \x1b[1;37;40m4. Others'
     print '║-> \x1b[1;37;40m5. Update'

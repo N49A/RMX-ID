@@ -56,15 +56,15 @@ logo = """
 \033[1;31m█████████      \033[1;92m«----------✧----------»
 \033[1;32m ██ ██
 \033[1;37m╔═══════════════════════════════════════════════════╗
-\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mANBIA\033[1;93m                            \033[1;36m      ║
-\033[1;37m║\033[1;96m* \033[1;93mYoutube \033[1;93m :\033[1;37m\033[4mSANSBAE\033[0m\033[1;93m \033[1;36m                               ║
-\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/SansBae  \033[1;36m           ║
+\033[1;37m║\033[1;96m* \033[1;93mCreator  \033[1;93m:\033[1;36mRMX  \033[1;93m                            \033[1;36m      ║
+\033[1;37m║\033[1;96m* \033[1;93mFB \033[1;93m :\033[1;37m\033[4mRMX CODE    \033[0m\033[1;93m \033[1;36m                               ║
+\033[1;37m║\033[1;96m* \033[1;97mGitHub   \033[1;93m:\033[1;32mhttps://github.com/N49A     \033[1;36m           ║
 \033[1;37m╚═══════════════════════════════════════════════════╝"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;92mSedang Masuk Silahkan Menunggu \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;92mSedang Masuk tunggu sebentar \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -79,17 +79,18 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print """\033[1;97m=====================================================>\033[1;91mTools Ini Dibuat Hanya Untuk Edukasi Dan Keperluan Penting
 \033[1;97m=====================================================>============>
-\033[1;91m [¤]   _____         _   _  _____ ____          ______ 
-\033[1;91m [¤]  / ____|  /\   | \ | |/ ____|  _ \   /\   |  ____|
-\033[1;91m [¤] | (___   /  \  |  \| | (___ | |_) | /  \  | |__   
-\033[1;91m [¤]  \___ \ / /\ \ | . ` |\___ \|  _ < / /\ \ |  __|  
-\033[1;91m [¤]  ____) / ____ \| |\  |____) | |_) / ____ \| |____ 
-\033[1;91m [¤] |_____/_/    \_\_| \_|_____/|____/_/    \_\______|"""
+\033[1;91m [¤]  TERIMA KASIH TELAH MENGGUNAKAN 
+
+\033[1;91m [¤]  TOOLS MILIK SAYA.....
+\033[1;91m [¤] 
+\033[1;91m [¤]  
+\033[1;91m [¤]  USERNAME = "N49A"
+\033[1;91m [¤]  PASSWORD = "RMX"
 print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 
 
-CorrectUsername = "ANBIA01"
-CorrectPassword = "AMANDA01"
+CorrectUsername = "N49A"
+CorrectPassword = "RMX"
 
 loop = 'true'
 while (loop == 'true'):
@@ -97,11 +98,11 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m[☆] \x1b[1;97mPASSWORD TOOLS INI \x1b[1;91m: ")
         if (password == CorrectPassword):
-            print "Login Berhasil Sobat " + username
+            print "Login Berhasil " + username
             loop = 'false'
         else:
             print "PASSWORD SALAH WOI!"
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+            os.system('xdg-open https://api.whatsapp.com/send?phone=6281273996358')
 
 def login():
 	os.system('clear')

@@ -91,6 +91,7 @@ print "\x1b[1;97m=====================================================>●⚀◇
 CorrectUsername = "N49A"
 CorrectPassword = "RMX"
 
+
 loop = 'true'
 while (loop == 'true'):
     username = raw_input("\033[1;91m[☆] \x1b[1;94mUSERNAME TOOLS INI \x1b[1;97m: ")
@@ -190,7 +191,7 @@ def menu():
 	print "\033[1;96m[\033[1;92m✓\033[1;96m]\033[1;35m Name \033[1;91m: \033[1;32m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;34m ID   \033[1;91m: \033[1;32m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
-	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;37m Hack Facebook Coeg"
+	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;37m Hack Facebook "
 	print "\x1b[1;96m[\x1b[1;92m2\x1b[1;96m]\x1b[1;36m Lihat Daftar Grup               "
 	print "\x1b[1;96m[\x1b[1;92m3\x1b[1;96m]\x1b[1;33m Yahoo id clone               "
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m LogOut            "
@@ -557,7 +558,7 @@ def clone_dari_daftar_teman():
 		jml +=1
 		mpsh.append(jml)
 		id = w['id']
-		nama = w['name']
+		nama = w['name'
 		links = requests.get("https://graph.facebook.com/"+id+"?access_token="+toket)
 		z = json.loads(links.text)
 		try:
@@ -795,6 +796,8 @@ def clone_dari_file():
 	menu()
 	
        
+		
+		
 		
 if __name__ == '__main__':
 	login()

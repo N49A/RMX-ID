@@ -93,7 +93,7 @@ def loginSC():
 	else:
 		print"\033[1;96m[!] \033[1;91mSALAH BOZ!!"
 		time.sleep(1)
-		os.system('xdg-open https://wa.me/6281273996358)
+		os.system('xdg-open https://.api.whatsapp.com/send?phone=6281273996358')
                 LoginSC()
 
 def login():

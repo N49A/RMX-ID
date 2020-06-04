@@ -104,7 +104,35 @@ def login():
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[
 def login():
+    os.system('clea
+def login():
+	os.system('clear')
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOErIOErrorror):
+		os.system('clear')
+		print logo
+		print 42*"\033[1;96m="
+		print('\033[1;96m[☆] \x1b[
+def login():
     os.system('clear')
+    try:
+        toket = open('login.txt', 'r')
+        menu()
+    except (KeyError, IOError):
+        os.system('clear')
+        print logo
+        print 52 * '\x1b[1;97m\xe2\x95\x90'
+        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mMASUK AKUN FACEBOOK \x1b[1;91m[\xe2\x98\x86]'
+        id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
+        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
+        tik()
+        try:
+            br.open('https://m.facebook.com')
+        except mechanize.URLError:
+            print '\n\x1b[1;91m[!] Tidak Ada Koneksi'
+            keluar(r')
     try:
         toket = open('login.txt', 'r')
         menu()

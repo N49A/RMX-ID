@@ -42,9 +42,9 @@ logo = """\033[1;93m๑۩۩๑
 \033[1;95m█████████      \033[1;97m«----------✧----------»
 \033[1;95m ██ ██
 \033[1;96m╔══════════════════════════════════════════════╗
-\033[1;96m║\033[1;93m* \033[1;97mCreator \032[1;93m: \033[1;92m RMX               \033[1;96m             ║
+\033[1;96m║\033[1;93m* \033[1;97mCreator \033[1;93m: \033[1;92m RMX               \033[1;96m             ║
 \033[1;96m║\033[1;93m* \033[1;97mGitHub  \033[1;93m: \033[1;92m\033[4m github.com/N49A        \033[0m \033[1;96m      ║
-\033[1;96m║\033[1;93m* \033[1;97mFB      \031[1;93m:  \033[1;92m\033mfacebook.com/RMXCODE\033[0m \033[1;96m            ║
+\033[1;96m║\033[1;93m* \033[1;97mFB      \033[1;93m:  \033[1;92m\033mfacebook.com/RMXCODE\033[0m \033[1;96m            ║
 \033[1;96m╚══════════════════════════════════════════════╝
 \033[1;93m  ⚠️ Buat Akun baru Di OperaMini Agar Tidak Cp ⚠️"""
 
@@ -103,11 +103,11 @@ print  """
 
 """
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;91m    ★MR-RMX★    \033[1;97m•◈•──────────•◈•")
-jalan("\033[1;97m•◈•──────────•◈•\033[1;98mLOGIN SC DULU BOS\033[1;97m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;31m    ★MR-RMX★    \033[1;97m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;33mLOGIN SC DULU BOS\033[1;97m•◈•──────────•◈•")
 	
-jalan("\033[1;97m•◈•──────────•◈•\033[1;32mUSERNAME = MR-RMX\033[1;97m•◈•──────────•◈•")
-jalan("\033[1;97m•◈•──────────•◈•\033[1;31mPASSWORD = N49A  \033[1;97m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;36mUSERNAME = MR-RMX\033[1;97m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;32mPASSWORD = N49A  \033[1;97m•◈•──────────•◈•")
 
 CorrectUsername = "MR-RMX"
 CorrectPassword = "N49A"
@@ -115,9 +115,9 @@ CorrectPassword = "N49A"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m★ ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSER ID \x1b[1;96m➤➤")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m★ ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m➤➤")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'

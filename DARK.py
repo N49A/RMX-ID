@@ -79,10 +79,13 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print """\033[1;97m=====================================================>\033[1;91mTools Ini Dibuat Hanya Untuk Edukasi Dan Keperluan Penting
 \033[1;97m=====================================================>============>
-\033[1;91m [¤]   TERIMA KASIH TELAH MENGGUNAKAN 
-\033[1;91m [¤]   TOOL MILIK SAYA....
-\033[1;91m [¤]   USERNAME= MR.TRMX
-\033[1;91m [¤]   PASSWORD= N49A
+\033[1;34m [✓]   TERIMA KASIH TELAH MENGGUNAKAN 
+\033[1;91m [✓]   TOOL MILIK SAYA....
+\033[1;91m [✓]   USERNAME= MR.TRMX
+\033[1;30m [✓]   PASSWORD= N49A
+\033[1;31m [✓]   SEMOGA BERHASIL
+\033[1;91m [✓]
+\033[1;91m [✓]
  print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 
 

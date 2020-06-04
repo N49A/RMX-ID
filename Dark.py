@@ -733,6 +733,7 @@ def clone_dari_member_group():
 	menu()
 
 
+
 def clone_dari_file():
 	global toket
 	os.system('clear')
@@ -795,6 +796,9 @@ def clone_dari_file():
 	menu()
 	
        
-		
+	
+	
+	
+	
 if __name__ == '__main__':
 	login()

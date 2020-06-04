@@ -81,13 +81,13 @@ def siapa():
 		
 def loginSC():
 	os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n"
-	print"\033[1;97mUSERNAME = WARNING\n"
-	print"\033[1;97mPASSWORD = EROR.  \n"
+	print"\033[1;97mSILAHKAN LOGIN SC NYA BOS QUE\n"
+	print"\033[1;31mUSERNAME = WARNING\n"
+	print"\033[1;33mPASSWORD = EROR.  \n"
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="WARNING" and password =="EROR":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
+		print"\033[1;96m[✓] \033[1;32mLogin success"
 		time.sleep(1)
 		login()
 	else:

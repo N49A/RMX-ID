@@ -65,25 +65,57 @@ listgrup = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 
+CorrectUsername = "ANBIA01"
+
+CorrectPassword = "AMANDA01"
+
+loop = 'true'
+
+while (loop == 'true'):
+
+    username = raw_input("\033[1;91m[☆] \x1b[1;94mUSERNAME TOOLS INI \x1b[1;97m: ")
+
+    if (username == CorrectUsername):
+
+    	password = raw_input("\033[1;91m[☆] \x1b[1;97mPASSWORD TOOLS INI \x1b[1;91m: ")        if (password == CorrectPassword):
+
+            print "Login Berhasil Sobat " + username
+
+            loop = 'false'
+
+        else:
+
+            print "PASSWORD SALAH WOI!"
+
+            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
 
 def login():
-    os.system('clear')
-    try:
-        toket = open('login.txt', 'r')
-        menu()
-    except (KeyError, IOError):
-        os.system('clear')
-        print logo
-        print 52 * '\x1b[1;97m\xe2\x95\x90'
-        print '\x1b[1;91m[\xe2\x98\x86] \x1b[1;92mMASUK AKUN FACEBOOK \x1b[1;91m[\xe2\x98\x86]'
-        id = raw_input('\x1b[1;91m[+] \x1b[1;36mUsername \x1b[1;91m:\x1b[1;92m ')
-        pwd = getpass.getpass('\x1b[1;91m[+] \x1b[1;36mPassword \x1b[1;91m:\x1b[1;92m ')
-        tik()
-        try:
-            br.open('https://m.facebook.com')
-        except mechanize.URLError:
-            print '\n\x1b[1;91m[!] Tidak Ada Koneksi'
-            keluar()
+
+	os.system('clear')
+
+	try:
+
+		toket = open('login.txt','r')
+
+		menu() 
+
+	except (KeyError,IOError):
+
+		os.system('clear')
+
+		print logo
+
+		print 42*"\033[1;96m="
+
+		print('\033[1;97m[☆] \x1b[1;96mLOGIN MENGGUNAKAN AKUN PALSU ANDA \x1b[1;97m[☆]' )
+
+		id = raw_input('\033[1;96m[+] \x1b[1;33mUsername FB \x1b[1;91m: \x1b[1;92m')
+
+		pwd = raw_input('\x1b[1;91m[+] \x1b[1;37mPassword FB \x1b[1;91m: \x1b[1;92m')
+
+		tik()
+
+		try:
 
         br._factory.is_html = True
         br.select_form(nr=0)

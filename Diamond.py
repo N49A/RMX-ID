@@ -102,7 +102,9 @@ print  """
 \033[1;97m         ╚════╝
 
 """
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96m       N49A      \033[1;97m•◈•──────────•◈•")
+
+jalan("\033[1;97m•◈•──────────•◈•\033[1;96m    ★MR-RMX★    \033[1;97m•◈•──────────•◈•")
+
 jalan("\033[1;97m•◈•──────────•◈•\033[1;32mUSERNAME = MR-RMX\033[1;97m•◈•──────────•◈•")
 jalan("\033[1;97m•◈•──────────•◈•\033[1;31mPASSWORD = N49A  \033[1;97m•◈•──────────•◈•")
 
@@ -119,11 +121,11 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "Pass Salah Minta Ke Admin Lewat WhastApp"
-            os.system('xdg-open https://wa.me/62859152824394')
+            print "MAAF PASSWORD ANDA SALAH...MINTA KE ADMIN"
+            os.system('xdg-open https://wa.me/6281273996358')
     else:
         print "User Id Salah Minta Ke Admin Lewat WhastApp"
-        os.system('xdg-open https://wa.me/62859152824394')
+        os.system('xdg-open https://wa.me/6281273996358')
 
 
 def login():

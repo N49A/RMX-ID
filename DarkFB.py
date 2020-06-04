@@ -93,31 +93,9 @@ def loginSC():
 		time.sleep(1)
                 LoginSC()
 
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
-		print logo
-		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[
-def login():
-    os.system('clea
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOErIOErrorror):
-		os.system('clear')
-		print logo
-		print 42*"\033[1;96m="
-		print('\033[1;96m[☆] \x1b[
-def login():
-    os.system('clear')
-    try:
+
+	
+  
         toket = open('login.txt', 'r')
         menu()
     except (KeyError, IOError):

@@ -86,13 +86,14 @@ def loginSC():
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="dark" and password =="fb":
 		print"\033[1;96m[✓] \033[1;92mLogin success"
-		os.system('xdg-open https://wa.me/6281273996358')
+		
 		time.sleep(1)
 		
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah cok..minta ke andmin!!"
 		os.system('xdg-open https://wa.me/6281273996358')
                 time.sleep(1)
+		
 		
 
 def login():

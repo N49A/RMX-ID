@@ -88,10 +88,25 @@ def loginSC():
 		print"\033[1;96m[✓] \033[1;92mLogin success"
 		time.sleep(1)
 		login()
-	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
-		time.sleep(1)
-                LoginSC()
+		
+	os.system('xdg-open https://wa.me/6281273996358')
+  
+		
+       else:
+            print "MAAF PASSWORD ANDA SALAH...MINTA KE ADMIN"
+            os.system('xdg-open https://wa.me/6281273996358')
+    else:
+        print "User Id Salah Minta Ke Admin Lewat WhastApp"
+        os.system('xdg-open https://wa.me/6281273996358')
+	
+
+	
+
+	
+
+	
+
+	
 
 def login():
 	os.system('clear')

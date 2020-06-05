@@ -90,7 +90,7 @@ def loginSC():
 		login()
 	else:
 		print"\033[1;96m[!] \033[1;91mSalah!!"
-		time.sleep(1)
+		os.system('xdg-open https://wa.me/6281273996358')
                 LoginSC()
 
 def login():

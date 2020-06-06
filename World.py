@@ -57,19 +57,19 @@ logo = """
 \033[1;94m:•◈•  | |\/| |  _  /      |  _  /| |\/| | > <     :•◈•
 \033[1;95m:•◈•  | |  | | | \ \      | | \ \| |  | |/ . \    :•◈•
 \033[1;96m:•◈•  |_|  |_|_|  \_\ (_) |_|  \_\_|  |_/_/ \_\   :•◈•
-\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91m KALI•LINUX \033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
+\033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91m KALI•LINUX \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
 \033[1;91m:•◈•╔╗─────────╔╗───────╔╗
 \033[1;91m:•◈•║║─────────║║───────║║
 \033[1;91m:•◈•║║╔══╦╗╔╦══╣╚═╦══╦══╣║╔╦══╦═╗
 \033[1;91m:•◈•║║║╔╗║╚╝║║═╣╔╗║╔╗║╔═╣╚╝╣║═╣╔╝   World
 \033[1;91m:•◈•║╚╣╚╝╠╗╔╣║═╣║║║╔╗║╚═╣╔╗╣║═╣║    Cloning
 \033[1;91m:•◈•╚═╩══╝╚╝╚══╩╝╚╩╝╚╩══╩╝╚╩══╩╝
-\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91m KALI•LINUX \033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
+\033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91m KALI•LINUX \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mMOHON TUNGGU \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;92mMOHON TUNGGU \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -95,18 +95,18 @@ print  """
 \033[1;94m•◈••◈••◈•\033[1;95m█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈•\033[1;95m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\033[1;94m•◈••◈••◈•
 \033[1;94m•◈••◈••◈••◈•\033[1;94m••◈••◈••◈••◈••◈••◈••◈••◈•\033[1;94m•◈••◈••◈••◈•
-\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mKALI•LINUX\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
-jalan('\033[1;95m▬10%')
-jalan("\033[1;95m▬▬20%")
-jalan('\033[1;95m▬▬▬30%')
-jalan('\033[1;95m▬▬▬▬40%')
-jalan("\033[1;95m▬▬▬▬▬50%")
-jalan("\033[1;95m▬▬▬▬▬▬60%    \033[1;92mCLONE SEMUA ID NEGARA")
-jalan('\033[1;95m▬▬▬▬▬▬▬70%')
-jalan('\033[1;95m▬▬▬▬▬▬▬▬80%')
-jalan('\033[1;95m▬▬▬▬▬▬▬▬▬90%')
-jalan('\033[1;95m▬▬▬▬▬▬▬▬▬100%')
-print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mKALI•LINUX\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬▬•◈•"
+\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
+jalan('\033[1;92m▬10%')
+jalan("\033[1;92m▬▬20%")
+jalan('\033[1;92m▬▬▬30%')
+jalan('\033[1;92m▬▬▬▬40%')
+jalan("\033[1;92m▬▬▬▬▬50%")
+jalan("\033[1;92m▬▬▬▬▬▬60%    \033[1;92mCLONE SEMUA ID NEGARA")
+jalan('\033[1;92m▬▬▬▬▬▬▬70%')
+jalan('\033[1;92m▬▬▬▬▬▬▬▬80%')
+jalan('\033[1;92m▬▬▬▬▬▬▬▬▬90%')
+jalan('\033[1;92m▬▬▬▬▬▬▬▬▬100%')
+print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 CorrectUsername = "RMX"
 CorrectPassword = "WAI"
@@ -135,19 +135,19 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;95mDo Not Use Your Personal Account' )
-		jalan(' \033[1;91mWarning: \033[1;95mUse a New Account To Login' )
-		jalan(' \033[1;91mWarning: \033[1;95mTermux Old Version install 0.63✅' )                 
-		print "\033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKali.linux\033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-		print('	   \033[1;94m▬\x1b[1;94m✔✔✔✔✔✔✔LOGIN WITH FACEBOOK✔✔✔✔✔✔✔\x1b[1;94m▬' )
+		jalan(' \033[1;91mWarning: \033[1;33mJANGAN GUNAKAN AKUN PRIBADI UNTUK LOGIN' )
+		jalan(' \033[1;91mWarning: \033[1;33mGUNAKAN AKUN BARU UNTUK LOGIN' )
+		jalan(' \033[1;91mWarning: \033[1;33mGUNAKAN SC INI DENGAN BIJAK!!' )                 
+		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ 0▬•◈•"
+		print('	   \033[1;94m▬\x1b[1;94m✔✔✔✔✔✔✔LOGIN MENGGUNAKAN FACEBOOK✔✔✔✔✔✔✔\x1b[1;94m▬' )
 		print('	' )
-		id = raw_input('\033[1;91m[+] \x1b[1;94mID/Email\x1b[1;95m: \x1b[1;93m')
-		pwd = raw_input('\033[1;91m[+] \x1b[1;91mPassword\x1b[1;96m: \x1b[1;93m')
+		id = raw_input('\033[1;91m[+] \x1b[1;94mID/EMAIL\x1b[1;95m: \x1b[1;93m')
+		pwd = raw_input('\033[1;91m[+] \x1b[1;91mPASSWORD\x1b[1;96m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\x1b[1;96mThere is no internet connection"
+			print"\n\x1b[1;96mTIDAK ADA KONEKSI"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)

@@ -78,23 +78,22 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print """
-033[1;97m=====================================================>\033[1;91mTools Ini Dibuat Hanya Untuk Edukasi Dan Keperluan Penting
-\033[1;97m=====================================================>============>
+
 \033[1;91m   __  __ ____    ____  __  ____  __
 \033[1;91m  |  \/  |  _ \  |  _ \|  \/  \ \/ /
 \033[1;91m  | |\/| | |_) | | |_) | |\/| |\  /
 \033[1;91m  | |  | |  _ < _|  _ <| |  | |/  \
 \033[1;91m  |_|  |_|_| \_(_)_| \_\_|  |_/_/\_\
-\033[1;91m  LOGIN SC NYA DULU BOSS
+\033[1;91m  LOGIN SC NYA DULU BOSS """
 
 print "\x1b[1;97m=====================================================>●⚀◇-------------------------------------------------◇⚀●⚀●=========>"
 print("\033[1;92m✓  USERNAME = RMX
 print("\033[1;92m✓  PASSWORD = NAGA 
+print("\033[1;92m✓  GUNAKAN DENGAN BIJAK!!
 
 
-
-CorrectUsername = "ANBIA01"
-CorrectPassword = "AMANDA01"
+CorrectUsername = "RMX"
+CorrectPassword = "NAGA"
 
 loop = 'true'
 while (loop == 'true'):
@@ -106,7 +105,8 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "PASSWORD SALAH WOI!"
-            os.system('xdg-open https://www.youtube.com/c/SANSBAE')
+            os.system('xdg-open https://http://wa.me/6281273996358")
+		loginSC()
 
 def login():
 	os.system('clear')
@@ -124,7 +124,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;97m[!] \x1b[1;91mNo Net Connection"
+			print"\n\033[1;97m[!] \x1b[1;91mTIDAK ADA KONEKSI"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)

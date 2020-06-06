@@ -217,14 +217,14 @@ def menu():
 	print "  \033[1;92m«----•◈••◈•----\033[1;93mLogged in User Info\033[1;92m----•◈••◈•-----»"
 	print "	   \033[1;91m Name\033[1;93m:\033[1;92m"+nama+"\033[1;93m               "
 	print "	   \033[1;91m ID\033[1;93m:\033[1;92m"+id+"\x1b[1;93m              "
-	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mKali.linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬•◈•"
 	print "\033[1;97m-•◈•-\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;91mChoose an Option>>> \033[1;97m")
+	unikers = raw_input("\n\033[1;91mPILIH SALAH SATU>>> \033[1;97m")
 	if unikers =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih()
@@ -251,20 +251,20 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m1.\x1b[1;91mClone From Friend List."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m2.\x1b[1;91mClone Friend List Public ID."
-	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m0.\033[1;92mBack"
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m1.\x1b[1;92mCRACK DARI DAFTAR TEMAN."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m2.\x1b[1;92mCRACK DARI PUBLIC."
+	print "\033[1;92m-•◈•-\033[1;91m> \033[1;92m0.\033[1;91mKEMBALI"
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;91mChoose an Option>>> \033[1;97m")
+	peak = raw_input("\n\033[1;91mPILIH SALAH SATU>>> \033[1;97m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
 		jalan('\033[1;93mGetting IDs \033[1;93m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -274,7 +274,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;92m[•◈•] \033[1;92mEnter ID\033[1;93m: \033[1;95m")
-		print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+		print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -299,10 +299,10 @@ def pilih_super():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
 		print("\r\033[1;91mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n\033[1;92m«--•◈••◈•---\x1b[1;93m•◈•Stop Process Press CTRL+Z•◈•\033[1;92m---•◈••◈•-»"
-	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
-	jalan(' \033[1;93m🔎🔎🔎🔎🔎🔎🔎\033[1;94mCloning Start..\033[1;93m🔍🔍🔍🔍🔍🔍🔍 ')
-	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "\n\033[1;92m«--•◈••◈•---\x1b[1;93m•◈•BERHENTI TEKAN CTRL+Z•◈•\033[1;92m---•◈••◈•-»"
+	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	jalan(' \033[1;93m🔎🔎🔎🔎🔎🔎🔎\033[1;94mSTAR CLONING..\033[1;93m🔍🔍🔍🔍🔍🔍🔍 ')
+	print "\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;90m•◈•▬ ▬ ▬ ▬ ▬ ▬•◈•"
 	
 			
 	def main(arg):

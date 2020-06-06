@@ -117,7 +117,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;91m🔐 \x1b[1;94mPASSWORD \x1b[1;91m ➵ \x1b[1;92m")
         if (password == CorrectPassword):
-            print "LOGIN BERHASIL "  #Dev:love_hacker
+            print "LOGIN BERHASIL✓"  #Dev:love_hacker
 	    time.sleep(2)
             loop = 'false'
         else:

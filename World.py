@@ -57,19 +57,19 @@ logo = """
 \033[1;94m:•◈•  | |\/| |  _  /      |  _  /| |\/| | > <     :•◈•
 \033[1;95m:•◈•  | |  | | | \ \      | | \ \| |  | |/ . \    :•◈•
 \033[1;96m:•◈•  |_|  |_|_|  \_\ (_) |_|  \_\_|  |_/_/ \_\   :•◈•
-\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKali.linux\033[1;94m•◈•▬•◈•
+\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91m KALI•LINUX \033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
 \033[1;91m:•◈•╔╗─────────╔╗───────╔╗
 \033[1;91m:•◈•║║─────────║║───────║║
 \033[1;91m:•◈•║║╔══╦╗╔╦══╣╚═╦══╦══╣║╔╦══╦═╗
 \033[1;91m:•◈•║║║╔╗║╚╝║║═╣╔╗║╔╗║╔═╣╚╝╣║═╣╔╝   World
 \033[1;91m:•◈•║╚╣╚╝╠╗╔╣║═╣║║║╔╗║╚═╣╔╗╣║═╣║    Cloning
 \033[1;91m:•◈•╚═╩══╝╚╝╚══╩╝╚╩╝╚╩══╩╝╚╩══╩╝
-\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKali.linux\033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•"""
+\033[1;94m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91m KALI•LINUX \033[1;94m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;93mPlease Wait \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;93mMOHON TUNGGU \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -101,31 +101,31 @@ jalan("\033[1;95m▬▬20%")
 jalan('\033[1;95m▬▬▬30%')
 jalan('\033[1;95m▬▬▬▬40%')
 jalan("\033[1;95m▬▬▬▬▬50%")
-jalan("\033[1;95m▬▬▬▬▬▬60%    \033[1;91mAll Country ID Clone")
+jalan("\033[1;95m▬▬▬▬▬▬60%    \033[1;93mCLONE SEMUA ID NEGARA")
 jalan('\033[1;95m▬▬▬▬▬▬▬70%')
 jalan('\033[1;95m▬▬▬▬▬▬▬▬80%')
 jalan('\033[1;95m▬▬▬▬▬▬▬▬▬90%')
 jalan('\033[1;95m▬▬▬▬▬▬▬▬▬100%')
-print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mkalilinux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
+print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;94mKALI•LINUX\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬▬•◈•"
 
 CorrectUsername = "World"
 CorrectPassword = "lovehacker"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;91m📋 \x1b[1;91mTool Username \x1b[1;91m»» \x1b[1;92m")
+    username = raw_input("\033[1;91m📄 \x1b[1;91mUSERNAME \x1b[1;91m ➵ \x1b[1;92m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;91m🗝 \x1b[1;91mTool Password \x1b[1;91m»» \x1b[1;92m")
+    	password = raw_input("\033[1;91m🔐 \x1b[1;91mPASSWORD \x1b[1;91m ➵ \x1b[1;92m")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username #Dev:love_hacker
+            print "LOGIN BERHASIL " + username #Dev:love_hacker
 	    time.sleep(2)
             loop = 'false'
         else:
-            print "\033[1;93mWrong Password"
-            os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+            print "\033[1;93mPASSWORD SALAH"
+            os.system('xdg-open https://wa.me/6281273996358')
     else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+        print "\033[1;94mUSERNAME SALAH"
+        os.system('xdg-open https://wa.me/6281273996358')
 
 def login():
 	os.system('clear')

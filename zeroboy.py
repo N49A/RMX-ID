@@ -91,25 +91,27 @@ jalan("\033[1;92m▬▬▬▬▬50%")
 jalan('\033[1;92m▬▬▬▬▬▬▬▬▬100%')
 print """
 
-\033[1;91m================================================="""
+\033[1;91m=================================================
+
+"""
 
 CorrectUsername = "rana"
 CorrectPassword = "rana"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Tool \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
-            print "Logged in successfully as " + username
+            print "LOGIN SUCCESS" + username
             loop = 'false'
         else:
-            print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            print "password salah!"
+            os.system('xdg-open https://http://wa.me/6281273996358')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://http://wa.me/6281273996358')
 
 def login():
 	os.system('clear')

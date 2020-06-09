@@ -192,7 +192,7 @@ def menu():
 		time.sleep(1)
 		login()
 	except requests.exceptions.ConnectionError:
-		print"\033[1;96m[!] \x1b[1;91mThere is no internet connection"
+		print"\033[1;96m[!] \x1b[1;91mTIDAK ADA KONEKSI"
 		keluar()
 	os.system("clear")
 	print logo
@@ -208,7 +208,7 @@ def menu():
 def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if unikers =="":
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
+		print "\033[1;96m[!] \x1b[1;91mISI YANG BENAR!"
 		pilih()
 	elif unikers =="1":
 		super()
@@ -217,7 +217,7 @@ def pilih():
 		os.system('rm -rf login.txt')
 		keluar()
 	else:
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
+		print "\033[1;96m[!] \x1b[1;91mISI YANG BENAR!"
 		pilih()
 
 
@@ -243,7 +243,7 @@ def super():
 def pilih_super():
 	peak = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if peak =="":
-		print "\033[1;96m[!] \x1b[1;91mFill in correctly"
+		print "\033[1;96m[!] \x1b[1;91mISI YANG BENAR!"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')

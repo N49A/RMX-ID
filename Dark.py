@@ -65,7 +65,7 @@ logo = """
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mSEDANG MASUK \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
@@ -92,8 +92,8 @@ jalan('\033[1;92m▬▬▬▬▬▬▬▬▬100%')
 print """
 
 \033[1;91m=================================================
-
-"""
+USERNAME = RMX
+PASSWORD = WAI 
 
 CorrectUsername = "RMX"
 CorrectPassword = "WAI"

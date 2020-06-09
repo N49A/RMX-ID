@@ -78,7 +78,7 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print """
+jalan """
 jalan('\033[1;92m▬10%')
 jalan('\033[1;92m▬▬▬30%')
 jalan("\033[1;92m▬▬▬▬▬50%")

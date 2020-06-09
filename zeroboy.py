@@ -159,12 +159,12 @@ def login():
 				print"\n\033[1;96m[!] \x1b[1;91mTIDAK ADA KONEKSI"
 				keluar()
 		if 'checkpoint' in url:
-			print("\n\033[1;96m[!] \x1b[1;91mIt seems that your account has a checkpoint")
+			print("\n\033[1;96m[!] \x1b[1;91mAKUN ANDA KENA CHEKPOINT")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			keluar()
 		else:
-			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email is wrong")
+			print("\n\033[1;96m[!] \x1b[1;91mPassword/Email salah!")
 			os.system('rm -rf login.txt')
 			time.sleep(1)
 			login()
@@ -187,7 +187,7 @@ def menu():
 		id = a['id']
 	except KeyError:
 		os.system('clear')
-		print"\033[1;96m[!] \033[1;91mIt seems that your account has a checkpoint"
+		print"\033[1;96m[!] \033[1;91mAKUN ANDA KENA CHEKPOINT"
 		os.system('rm -rf login.txt')
 		time.sleep(1)
 		login()

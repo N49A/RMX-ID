@@ -105,8 +105,8 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
-            print "LOGIN SUCCESS" + username
-            def login()
+            print "LOGIN SUCCESS" + username"
+            loginSC()
         else:
             print "password salah!"
             os.system('xdg-open https://http://wa.me/6281273996358')

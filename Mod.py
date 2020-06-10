@@ -135,19 +135,19 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;95mJANGAN GUNAKAN AKUN PRIBADI ANDA' )
-		jalan(' \033[1;91mWarning: \033[1;95mGUNAKAN AKUN BARU UNTUK LOGIN' )
-		jalan(' \033[1;91mWarning: \033[1;95mGUNAKAN TOOLS INI DENGAN BIJAK!' )                 
+		jalan(' \033[1;91mWarning: \033[1;93mJANGAN GUNAKAN AKUN PRIBADI ANDA' )
+		jalan(' \033[1;91mWarning: \033[1;93mGUNAKAN AKUN BARU UNTUK LOGIN' )
+		jalan(' \033[1;91mWarning: \033[1;93mGUNAKAN TOOLS INI DENGAN BIJAK!' )                 
 		print "\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬ •◈•\033[1;91mKALI LINUX\033[1;97m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 		print('	   \033[1;97m▬\x1b[1;91m✔✔✔✔✔✔✔LOGIN WITH FACEBOOK✔✔✔✔✔✔✔\x1b[1;97m▬' )
 		print('	' )
 		id = raw_input('\033[1;91m[+] \x1b[1;94mID/Email\x1b[1;95m: \x1b[1;93m')
-		pwd = raw_input('\033[1;91m[+] \x1b[1;91mPassword\x1b[1;96m: \x1b[1;93m')
+		pwd = raw_input('\033[1;91m[+] \x1b[1;94mPassword\x1b[1;95m: \x1b[1;93m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
 		except mechanize.URLError:
-			print"\n\x1b[1;96mThere is no internet connection"
+			print"\n\x1b[1;96mTIDAK ADA KONEKSI"
 			keluar()
 		br._factory.is_html = True
 		br.select_form(nr=0)

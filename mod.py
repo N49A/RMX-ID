@@ -119,7 +119,7 @@ while (loop == 'true'):
         if (password == CorrectPassword):
             print "LOGIN SUCCESS " + username #Dev:love_hacker
 	    time.sleep(1)
-            loginSC()
+            login()
         else:
             print "\033[1;93mpassword salah!"
             os.system('xdg-open https://wa.me/6281273996358')

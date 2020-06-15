@@ -188,7 +188,7 @@ def menu():
 		print"\033[1;96m[!] \x1b[1;91mTidak ada koneksi"
 		keluar()
 	os.system("clear")
-	print logo =
+	print logo 
 	print 42*"\033[1;96m="
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
 	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "

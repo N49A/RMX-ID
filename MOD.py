@@ -98,7 +98,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
-            print "LOGIN BERHASIL " jalan('...')
+            print "LOGIN BERHASIL " jalan(
             loop = 'false'
         else:
             print "Password salah!"

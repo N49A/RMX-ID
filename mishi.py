@@ -301,7 +301,7 @@ def pilih_super():
 	print "\n\033[1;94m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "\033[1;33;48m●══════════════════════☠══════════════════════●"
 
-	jalan('            \033[1;91m        start cloning Wait...
+	jalan(
 
 	def main(arg):
 		global cekpoint,oks

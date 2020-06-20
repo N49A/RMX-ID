@@ -92,9 +92,9 @@ CorrectPassword = "WAI"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLS INI \x1b[1;96m>>>> \033[1;92m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLS INI \x1b[1;96m>>>> \033[1;92m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -235,11 +235,11 @@ def super():
 		login()
 	os.system('clear')
 	print logo
-	print "\x1b[1;32;40m[1] \033[1;32;40m══Hack From Friend List"
-	print "\x1b[1;32;40m[2] \033[1;32;40m══Hack From Public ID"
-	print "\x1b[1;32;40m[3] \033[1;32;40m══Hack Bruteforce"
-	print "\x1b[1;32;40m[4] \033[1;32;40m══Hack From File"
-	print "\x1b[1;32;40m[0] \033[1;31;40m══Back"
+	print "\x1b[1;32;40m[1] \033[1;31;40m══Hack From Friend List"
+	print "\x1b[1;32;40m[2] \033[1;31;40m══Hack From Public ID"
+	print "\x1b[1;32;40m[3] \033[1;31;40m══Hack Bruteforce"
+	print "\x1b[1;32;40m[4] \033[1;31;40m══Hack From File"
+	print "\x1b[1;32;40m[0] \033[1;33;40m══Back"
 	pilih_super()
 
 def pilih_super():
@@ -303,7 +303,7 @@ def pilih_super():
 		print("\r\033[1;32;40m[✺] Cloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;96m        ❈     \x1b[1;91mTo Stop Process Press CTRL+Z \033[1;94m    ❈"
 	print "\033[1;33;48m●══════════════════════☠══════════════════════●"
-	jalan('            \033[1;91m                                             start cloning Wait...')
+	jalan('\033[1;91m                    start cloning Wait...')
 	print "\033[1;33;48m●══════════════════════☠══════════════════════●" 
 
 	def main(arg):
